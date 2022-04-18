@@ -60,7 +60,7 @@ app.post('/register', async (req, resp) => {
       resp.send(req.body);
       console.log(result);
     } else {
-      console.log('User already register');
+      console.log('User already registered');
     }
   } catch (e) {
     resp.send('Something Went Wrong');
